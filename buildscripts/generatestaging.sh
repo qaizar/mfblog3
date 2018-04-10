@@ -1,3 +1,3 @@
 #!/bin/bash
 #generate staging site
-hugo --baseURL http://mfblog33.blob.core.windows.net/staging/ --uglyURLs
+hugo --baseURL https://mfblog33.blob.core.windows.net/staging/ --uglyURLs
