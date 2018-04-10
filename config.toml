@@ -1,4 +1,4 @@
-baseurl = "http://b.mfriedrich.cloud/blog/"
+baseurl = "https://mfblog33.blob.core.windows.net/blog"
 languageCode = "en-us"
 title = "Michael Friedrich Azure Blog"
 # Enable comments by entering your Disqus shortname
