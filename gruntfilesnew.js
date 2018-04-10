@@ -59,344 +59,344 @@ module.exports = function (grunt) {
                 options: { 
                     replacements: [{ 
                         //baseurl
-                        pattern: '<a href="https:\/\/cdn.mfriedrich.cloud\/"', 
-                        replacement: '<a href="https://cdn.mfriedrich.cloud/index.html"' 
+                        pattern: '<a href="https:\/\/mfblog33.blob.core.windows.net\/blog\/"', 
+                        replacement: '<a href="https://mfblog33.blob.core.windows.net/blog/index.html"' 
                     }, 
                     { 
                         //Posts
                         //starting-a-blog
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/02\/starting-a-blog"', 
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/02/starting-a-blog.html"' 
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog\/2017\/01\/02\/starting-a-blog"', 
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/02/starting-a-blog.html"' 
                     },
                     { 
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/02\/starting-a-blog"', 
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/02/starting-a-blog.html"' 
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/02\/starting-a-blog"', 
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/02/starting-a-blog.html"' 
                     },
                     { 
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/02\/starting-a-blog"', 
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/02/starting-a-blog.html"' 
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/02\/starting-a-blog"', 
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/02/starting-a-blog.html"' 
                     },
                     { 
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/02\/starting-a-blog"', 
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/02/starting-a-blog.html"' 
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/02\/starting-a-blog"', 
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/02/starting-a-blog.html"' 
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/02\/starting-a-blog"', 
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/02/starting-a-blog.html"' 
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/02\/starting-a-blog"', 
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/02/starting-a-blog.html"' 
                     },
                     {
                         //jenkins-on-azure-app-service
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/11\/jenkins-on-azure-app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/11/jenkins-on-azure-app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/11\/jenkins-on-azure-app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/11/jenkins-on-azure-app-service.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/11\/jenkins-on-azure-app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/11/jenkins-on-azure-app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/11\/jenkins-on-azure-app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/11/jenkins-on-azure-app-service.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/11\/jenkins-on-azure-app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/11/jenkins-on-azure-app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/11\/jenkins-on-azure-app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/11/jenkins-on-azure-app-service.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/11\/jenkins-on-azure-app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/11/jenkins-on-azure-app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/11\/jenkins-on-azure-app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/11/jenkins-on-azure-app-service.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/11\/jenkins-on-azure-app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/11/jenkins-on-azure-app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/11\/jenkins-on-azure-app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/11/jenkins-on-azure-app-service.html"'
                     },
                     {
                         //hugo-in-azure-blog-storage
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/21\/hugo-in-azure-blob-storage"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/21/hugo-in-azure-blob-storage.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/21\/hugo-in-azure-blob-storage"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/21/hugo-in-azure-blob-storage.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/21\/hugo-in-azure-blob-storage"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/21/hugo-in-azure-blob-storage.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/21\/hugo-in-azure-blob-storage"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/21/hugo-in-azure-blob-storage.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/21\/hugo-in-azure-blob-storage"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/21/hugo-in-azure-blob-storage.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/21\/hugo-in-azure-blob-storage"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/21/hugo-in-azure-blob-storage.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/21\/hugo-in-azure-blob-storage"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/21/hugo-in-azure-blob-storage.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/21\/hugo-in-azure-blob-storage"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/21/hugo-in-azure-blob-storage.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/01\/21\/hugo-in-azure-blob-storage"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/2017/01/21/hugo-in-azure-blob-storage.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/01\/21\/hugo-in-azure-blob-storage"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/2017/01/21/hugo-in-azure-blob-storage.html"'
                     },
                     {
                         //microsoft-ignite-next-week
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/09\/microsoft-ignite-next-week.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/09\/microsoft-ignite-next-week.html"'
                     },
                     {
                         //live-demo
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/13\/live-demo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/13\/live-demo.html"'
                     },
                     {
                         //ignite wrapup
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/02\/23\/ignite-wrap-up.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/02\/23\/ignite-wrap-up.html"'
                     },
                     {
                         //getting started with Terraform
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/01\/getting-started-with-terraform-on-azure.html"'
                     },
                     {
                         //talking helm for a spin
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2017\/05\/30\/taking-helm-for-a-spin.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2017\/05\/30\/taking-helm-for-a-spin.html"'
                     },
                     {
                         //Start using Jenkins with Azure in 5 minutes
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
-                        replacement: 'href="https:\/\/cdn.mfriedrich.cloud\/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes"',
+                        replacement: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/2018\/02\/27\/start-using-jenkins-with-azure-in-5-minutes.html"'
                     },
                     {
                         //tags - 2 plus number of tags
                         //app-service
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/app-service.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/app-service.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/app-service"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/app-service.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/app-service"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/app-service.html"'
                     },
                     {
                         //azure
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/azure"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/azure"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/azure"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/azure"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/azure"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/azure"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/azure"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/azure"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/azure"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/azure"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/azure"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/azure"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/azure.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/azure"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/azure.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/azure"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/azure.html"'
                     },
                     {
                         //blob
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/blob"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/blob.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/blob"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/blob.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/blob"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/blob.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/blob"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/blob.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/blob"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/blob.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/blob"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/blob.html"'
                     },
                     {
                         //helm
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/helm"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/hugo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/helm"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/hugo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/helm"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/hugo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/helm"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/hugo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/helm"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/hugo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/helm"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/hugo.html"'
                     },
                     {
                         //hugo
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/hugo"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/hugo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/hugo"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/hugo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/hugo"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/hugo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/hugo"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/hugo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/hugo"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/hugo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/hugo"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/hugo.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/hugo"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/hugo.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/hugo"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/hugo.html"'
                     },
                     {
                         //ignite
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/ignite"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/ignite.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/ignite"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/ignite.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/ignite"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/ignite.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/ignite"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/ignite.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/ignite"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/ignite.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/ignite"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/ignite.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/ignite"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/ignite.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/ignite"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/ignite.html"'
                     },
                     {
                         //jenkins
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/jenkins"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/jenkins.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/jenkins"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/jenkins.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/jenkins"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/jenkins.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/jenkins"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/jenkins.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/jenkins"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/jenkins.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/jenkins"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/jenkins.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/jenkins"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/jenkins.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/jenkins"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/jenkins.html"'
                     },
                     {
                         //kubernetes
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/kubernetes"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/kubernetes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/kubernetes"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/kubernetes.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/kubernetes"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/kubernetes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/kubernetes"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/kubernetes.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/kubernetes"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/kubernetes.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/kubernetes"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/kubernetes.html"'
                     },
                     {
                         //terraform
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/terraform"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/terraform.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/terraform"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/terraform.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/terraform"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/terraform.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/terraform"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/terraform.html"'
                     },
                     {
-                        pattern: 'href="https:\/\/cdn.mfriedrich.cloud\/tags\/terraform"',
-                        replacement: 'href="https://cdn.mfriedrich.cloud/tags/terraform.html"'
+                        pattern: 'href="https:\/\/mfblog33.blob.core.windows.net\/blog/tags\/terraform"',
+                        replacement: 'href="https://mfblog33.blob.core.windows.net/blog/tags/terraform.html"'
                     }
                     ] 
                 } 
@@ -414,4 +414,3 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['uglify', 'cssmin:target', 'string-replace:badlinks', 'htmlmin:dist']);
  
 }; 
-
